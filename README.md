@@ -1,16 +1,29 @@
 # webext-storage-sync
 
-A simple Promise-based wrapper for chrome.storage API with automatic JSON serialization and TypeScript support.
+[![npm version](https://img.shields.io/npm/v/webext-storage-sync)](https://npmjs.com/package/webext-storage-sync)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
+[![CI Status](https://img.shields.io/github/actions/workflow/status/theluckystrike/webext-storage-sync/ci.yml?branch=main)](https://github.com/theluckystrike/webext-storage-sync/actions)
+[![Discord](https://img.shields.io/badge/Discord-Zovo-blueviolet.svg?logo=discord)](https://discord.gg/zovo)
+[![Website](https://img.shields.io/badge/Website-zovo.one-blue)](https://zovo.one)
+[![GitHub Stars](https://img.shields.io/github/stars/theluckystrike/webext-storage-sync?style=social)](https://github.com/theluckystrike/webext-storage-sync)
+
+> A simple Promise-based wrapper for chrome.storage API with automatic JSON serialization and TypeScript support.
+
+## Overview
+
+**webext-storage-sync** is a lightweight Promise-based wrapper for the chrome.storage API. It provides automatic JSON serialization, TypeScript support with generics, default values, change listeners, namespace support, and bulk operations.
+
+Part of the [Zovo](https://zovo.one) developer tools family.
 
 ## Features
 
-- Promise-based API (no callbacks)
-- Automatic JSON serialization
-- TypeScript support with generics
-- Default values
-- Change listeners
-- Namespace support
-- Bulk operations
+- ✅ **Promise-Based** - No callbacks, clean async/await
+- ✅ **Auto Serialization** - JSON handled automatically
+- ✅ **TypeScript** - Full generics support
+- ✅ **Default Values** - Fallback when keys missing
+- ✅ **Change Listeners** - Watch for storage changes
+- ✅ **Bulk Operations** - Get/set multiple keys
 
 ## Installation
 
@@ -214,6 +227,43 @@ function App() {
 - Edge 88+
 - Chromium-based browsers
 
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. **Fork** the repository
+2. **Create** a feature branch: `git checkout -b feature/storage-feature`
+3. **Make** your changes
+4. **Test** your changes: `npm test`
+5. **Commit** your changes: `git commit -m 'Add new feature'`
+6. **Push** to the branch: `git push origin feature/storage-feature`
+7. **Submit** a Pull Request
+
+## Built by Zovo
+
+Part of the [Zovo](https://zovo.one) developer tools family — privacy-first Chrome extensions built by developers, for developers.
+
+## See Also
+
+### Related Zovo Repositories
+
+- [chrome-storage-plus](https://github.com/theluckystrike/chrome-storage-plus) - Advanced storage wrapper
+- [webext-reactive-store](https://github.com/theluckystrike/webext-reactive-store) - State management
+- [chrome-extension-starter-mv3](https://github.com/theluckystrike/chrome-extension-starter-mv3) - Extension template
+- [zovo-extension-template](https://github.com/theluckystrike/zovo-extension-template) - Privacy-first template
+
+### Zovo Chrome Extensions
+
+- [Zovo Tab Manager](https://chrome.google.com/webstore/detail/zovo-tab-manager) - Manage tabs efficiently
+- [Zovo Focus](https://chrome.google.com/webstore/detail/zovo-focus) - Block distractions
+- [Zovo Permissions Scanner](https://chrome.google.com/webstore/detail/zovo-permissions-scanner) - Check extension privacy grades
+
+Visit [zovo.one](https://zovo.one) for more information.
+
 ## License
 
-MIT
+MIT — [Zovo](https://zovo.one)
+
+---
+
+*Built by developers, for developers. No compromises on privacy.*
